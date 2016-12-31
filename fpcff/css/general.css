@@ -1,0 +1,69 @@
+<style type="text/css">
+
+/* ###### Body Text ###### */
+
+body {
+  font-family: verdana, tahoma, helvetica, arial, sans-serif;
+}
+
+a {color: black;} 
+a:hover {color: pink;} 
+
+h1, h2 {
+  color: white;
+  background-color: magenta; 
+}
+
+h2 {
+	text-align: center;
+}
+
+h3, h4, h5, h6 {
+  color: gray;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    padding: 5px;
+    text-align: center;
+}
+td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+
+.required {
+  color:  #ff0000; /* red */
+  font-size:  smaller;
+}
+
+.errorMsg {
+  color:  #ff0000; /* red */
+  font-weight: bold;
+}
+
+.highlight {
+  background-color:  magenta; /* light blue */
+  color:  #ffffff;
+}
+
+
+</style>
+
